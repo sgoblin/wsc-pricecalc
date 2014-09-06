@@ -1,7 +1,8 @@
-var 21rate = 50;
+// Comment
+var rate21 = 50;
 var duoDiscusRate = 75;
-var 23Rate = 45;
-var 24Rate = 45;
+var rate23 = 45;
+var rate24 = 45;
 /*The rates for the sailplanes are ^ */
 
 var insWSCAC = 60;
