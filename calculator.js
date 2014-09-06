@@ -14,6 +14,8 @@ var tow100 = 1.4;
 
 function hr2min(hourTime) {
 	return hourTime*60;
-}
+};
 //Turns hours into minutes.
 
+var calcb = document.getElementById("calculButton");
+calcb.onclick=function(){window.alert("hello world")};
