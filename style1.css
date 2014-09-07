@@ -13,3 +13,6 @@ select {
     text-align: left;
     text-decoration: none;
 }
+body {
+	font-family:sans-serif;
+}
