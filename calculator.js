@@ -1,4 +1,3 @@
-// Comment
 var rate21 = 50;
 var duoDiscusRate = 75;
 var rate23 = 45;
@@ -15,8 +14,12 @@ var tow100 = 1.4;
 
 function hr2min(hourTime) {
 	return hourTime*60;
-};
+}
 //Turns hours into minutes.
 
-var calcb = document.getElementById("calculButton");
-calcb.onclick=function(){window.alert("hello world")};
+$(document).ready( function(){
+	document.getElementById("calculButton").onclick = function() {calculatePrice();};
+});
+function calculatePrice() {
+	
+}
