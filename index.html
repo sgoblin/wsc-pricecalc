@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<title>Williams Soaring Price Calculator</title>
@@ -26,7 +26,15 @@
 				<option value="no">No</option>
 			</select>
 			<br/>
-			<button name="calculate" id="calculButton" type="button">Calculate</button>
+			Tow Height<input type="text" name="towHeight" id="towHeight" size="5"/>
+			<br/>
+			Estimated Time Aloft (minutes)<input type="text" name="eta" id="eta" size="3" />
+			<br/>
+			<button name="calculate" id="calculButton" type="button">Calculate</button><br/>
+			<span>
+				Cost per hour:<input type="text" id="resultHour" size="6" readonly="true" /><br/>
+				Cost per minute:<input type="text" id="resultMin" size="6" readonly="true" />
+			</span>
 		</div>
 	</body>
 </html>
