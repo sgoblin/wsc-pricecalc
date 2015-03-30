@@ -25,8 +25,8 @@ function divide(firstNum, secondNum){
 	return firstNum/secondNum;
 }
 
-$(document).ready( function(){
-	$("#calculButton").on("click", function(){calculatePrice();});
+document.addEventListener("DOMContentLoaded", function() {
+	document.getElementById("calculButton").addEventListener("click", function(){calculatePrice();});
 });
 function calculatePrice() {
 	var airplanePrice;
